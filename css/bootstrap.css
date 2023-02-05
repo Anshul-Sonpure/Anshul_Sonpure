@@ -6,7 +6,7 @@
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-:root {
+ :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
   --bs-purple: #6f42c1;
@@ -223,7 +223,10 @@ figure {
 
 img,
 svg {
-  vertical-align: middle; }
+  vertical-align: middle; 
+width: 112px;
+    height: 112px;
+    aspect-ratio: auto 112 / 112;}
 
 table {
   caption-side: bottom;
